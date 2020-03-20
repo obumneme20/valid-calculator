@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="space">
+        <textarea cols="50" id="screen" rows="10" disabled ></textarea>
+    </div>
+
+    <div class="main">
+        <div class="display" >
+            <div class="flex">
+                <button class="btn" value="(" onclick="clickBtn(this)">(</button> 
+            </div>
+
+            <div class="flex">
+                <button class="btn" value=")" onclick="clickBtn(this)">)</button> 
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="%" onclick="clickBtn(this)">%</button>    
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="AC" onclick="clickBtn(this)" >AC</button> 
+            </div>
+        </div>
+
+        <div class="display" >
+            <div class="flex"> 
+                <button class="btn" value="7" onclick="clickBtn(this)">7</button> 
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="8" onclick="clickBtn(this)">8</button> 
+            </div>
+
+            <div class="flex"> 
+                <button class="btn" value="9" onclick="clickBtn(this)">9</button>   
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="/" onclick="clickBtn(this)">/</button> 
+            </div>
+        </div>
+
+        <div class="display">
+            <div class="flex"> 
+                <button class="btn" value="4" onclick="clickBtn(this)">4</button> 
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="5" onclick="clickBtn(this)">5</button> 
+            </div>
+
+            <div class="flex">  
+                <button class="btn"value="6" onclick="clickBtn(this)">6</button>  
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="*" onclick="clickBtn(this)">*</button> 
+            </div>
+        </div>
+
+        <div class="display">
+            <div class="flex"> 
+                <button class="btn" value="1" onclick="clickBtn(this)">1</button> 
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="2" onclick="clickBtn(this)">2</button> 
+            </div>
+
+            <div class="flex">  
+                <button class="btn" value="3" onclick="clickBtn(this)">3</button>  
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="-" onclick="clickBtn(this)">-</button> 
+            </div>
+        </div>
+
+        <div class="display">
+            <div class="flex"> 
+                <button class="btn" id="zero" value="0" onclick="clickBtn(this)">0</button> 
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="." onclick="clickBtn(this)">.</button> 
+            </div>
+
+            <div class="flex">  
+                <button class="btn" value="=" onclick="clickBtn(this)" style="background-color: rgba(11, 11, 153, 0.952);" >=</button>  
+            </div>
+
+            <div class="flex">
+                <button class="btn" value="+" onclick="clickBtn(this)">+</button> 
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="script.js"></script>   
+</body>
+</html>
